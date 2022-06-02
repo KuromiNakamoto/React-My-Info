@@ -1,0 +1,30 @@
+.timeline_introducing {
+    margin-bottom: 5rem;
+}
+
+.timeline_introducing .title {
+    text-align: center;
+}
+
+.timeline_introducing .title ~ .title_bottom {
+    height: 5px;
+    width: 50px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.timeline_introducing .timeline_div {
+    margin-top: 2rem;
+}
+
+.timeline_introducing .timeline_div .t_title {
+    font-size: 30px;
+}
+
+.timeline_introducing .timeline_div .t_time {
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    line-height: 35px;
+}

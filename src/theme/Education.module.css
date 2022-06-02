@@ -1,0 +1,55 @@
+.education_introducing {
+    margin-bottom: 5rem;
+}
+
+.education_introducing .title {
+    text-align: center;
+}
+
+.education_introducing .title ~ .title_bottom {
+    height: 5px;
+    width: 50px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.education_introducing .programming_language {
+    padding: 1rem;
+}
+
+.education_introducing .programming_language .p_title {
+    font-size: 30px;
+}
+
+.education_introducing .programming_language .list_p_text {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.education_introducing .programming_language .list_p_text .p_text {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 30px;
+    width: 45%;
+}
+
+.education_introducing .programming_language .list_p_text .p_text:not(:last-child) {
+    margin-right: 5%;
+}
+
+@media (max-width:798px) {
+    .education_introducing .programming_language .list_p_text .p_text:not(:last-child) {
+        margin-right: 0;
+    }
+    .education_introducing .programming_language .list_p_text {
+        flex-direction: column;
+    }
+    .education_introducing .programming_language .list_p_text .p_text {
+        width: 100%;
+    }
+    .education_introducing .programming_language .list_p_text {
+        margin-top: 0;
+    }
+}

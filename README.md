@@ -1,2 +1,2 @@
-# React-My-Info
-Test
+# Test React App
+test
